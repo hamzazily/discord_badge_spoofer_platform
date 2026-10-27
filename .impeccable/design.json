@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T09:34:39.856945+00:00",
+  "title": "Design System: Badgecraft",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Bg"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface"
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line"
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted"
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint"
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent"
+      },
+      "blurple": {
+        "role": "primary",
+        "displayName": "Blurple"
+      },
+      "banner": {
+        "role": "primary",
+        "displayName": "Banner"
+      },
+      "variety": {
+        "role": "secondary",
+        "displayName": "Variety"
+      },
+      "streaming": {
+        "role": "secondary",
+        "displayName": "Streaming"
+      },
+      "account-age": {
+        "role": "secondary",
+        "displayName": "Account Age"
+      },
+      "banner-ocean": {
+        "role": "secondary",
+        "displayName": "Banner Ocean"
+      },
+      "banner-rose": {
+        "role": "secondary",
+        "displayName": "Banner Rose"
+      },
+      "banner-forest": {
+        "role": "secondary",
+        "displayName": "Banner Forest"
+      },
+      "banner-ember": {
+        "role": "secondary",
+        "displayName": "Banner Ember"
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White"
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus"
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "Button Hover"
+      },
+      "quiet-bg": {
+        "role": "neutral",
+        "displayName": "Quiet Bg"
+      },
+      "quiet-text": {
+        "role": "neutral",
+        "displayName": "Quiet Text"
+      },
+      "field-bg": {
+        "role": "neutral",
+        "displayName": "Field Bg"
+      },
+      "field-text": {
+        "role": "neutral",
+        "displayName": "Field Text"
+      },
+      "tab-selected-bg": {
+        "role": "neutral",
+        "displayName": "Tab Selected Bg"
+      },
+      "tab-selected-text": {
+        "role": "neutral",
+        "displayName": "Tab Selected Text"
+      },
+      "profile-bg": {
+        "role": "neutral",
+        "displayName": "Profile Bg"
+      },
+      "badge-card-bg": {
+        "role": "neutral",
+        "displayName": "Badge Card Bg"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Responsive hero heading."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Collection card headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base prose and inherited control text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Tracked metadata."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Primary action labels."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Code preview."
+      }
+    },
+    "shadows": [
+      {
+        "name": "profile",
+        "value": "0 26px 55px #0004",
+        "purpose": "Profile card depth."
+      },
+      {
+        "name": "floating-artwork",
+        "value": "0 14px 25px #0003",
+        "purpose": "Floating badge tiles."
+      },
+      {
+        "name": "button-hover",
+        "value": "0 8px 22px #3e43cc33",
+        "purpose": "Primary action hover."
+      },
+      {
+        "name": "toast",
+        "value": "0 10px 35px #0006",
+        "purpose": "Temporary local-action feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Shared arrival and transform easing."
+      },
+      {
+        "name": "section-arrival",
+        "value": ".8s",
+        "purpose": "One-time section reveal."
+      },
+      {
+        "name": "badge-swap",
+        "value": ".5s",
+        "purpose": "Artwork tier changes."
+      },
+      {
+        "name": "card-stagger",
+        "value": ".07s",
+        "purpose": "Four-card entrance spacing."
+      },
+      {
+        "name": "reduced-motion",
+        "value": ".01ms",
+        "purpose": "CSS animation and transition override; JavaScript skips reveal, swap, tilt and smooth scrolling."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1150px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "940px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "720px"
+      },
+      {
+        "name": "narrow-max",
+        "value": "370px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main blurple action.",
+      "html": "<button class=\"ds-button\">Explore badges</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:50px;padding:12px 23px;border:0;border-radius:8px;font:700 14px \"DM Sans\",sans-serif;cursor:pointer;background:var(--blurple,#5865f2);color:#fff;transition:background .2s,transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s}.ds-button:hover{background:#6a76ff;transform:translateY(-2px);box-shadow:0 8px 22px #3e43cc33}.ds-button:disabled{opacity:.45;cursor:default}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Supporting navigation with an inset stroke.",
+      "html": "<button class=\"ds-button ds-quiet\">How it works</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:50px;padding:12px 23px;border:0;border-radius:8px;font:700 14px \"DM Sans\",sans-serif;cursor:pointer;background:var(--blurple,#5865f2);color:#fff;transition:background .2s,transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s}.ds-button:hover{background:#6a76ff;transform:translateY(-2px);box-shadow:0 8px 22px #3e43cc33}.ds-button:disabled{opacity:.45;cursor:default}.ds-quiet{background:#1a1b28;color:#dddced;box-shadow:inset 0 0 0 1px #303143}.ds-quiet:hover{background:#242537;box-shadow:inset 0 0 0 1px #55516d}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "A secondary outlined action.",
+      "html": "<button class=\"ds-button ds-outline\">Preview on profile</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:50px;padding:12px 23px;border:0;border-radius:8px;font:700 14px \"DM Sans\",sans-serif;cursor:pointer;background:var(--blurple,#5865f2);color:#fff;transition:background .2s,transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s}.ds-button:hover{background:#6a76ff;transform:translateY(-2px);box-shadow:0 8px 22px #3e43cc33}.ds-button:disabled{opacity:.45;cursor:default}.ds-outline{border:1px solid #48435d;background:transparent;color:#ded7ff}.ds-outline:hover{background:#2d2643;box-shadow:none}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Display Name",
+      "kind": "input",
+      "refersTo": "name-input",
+      "description": "Recessed profile-name input.",
+      "html": "<label class=\"ds-label\" for=\"ds-name\">Display name</label><input class=\"ds-input\" id=\"ds-name\" value=\"nightshift\">",
+      "css": ".ds-label{display:block;font:700 11px \"DM Sans\",sans-serif;color:#c8c2d6;margin-bottom:9px}.ds-input{width:100%;border:1px solid #393144;background:#11121a;color:#ddd6eb;border-radius:7px;padding:12px 43px 12px 15px;font:13px \"DM Sans\",sans-serif;caret-color:var(--accent,#a89cff);transition:border-color .2s}.ds-input:focus{border-color:#9d89d3;outline-offset:3px}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Navigation Links",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Compact links with the current section highlighted.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Preview navigation\"><a href=\"#badges\" aria-current=\"location\">Badges</a><a href=\"#progression\">Progression</a><a href=\"#profile\">Profile Preview</a></nav>",
+      "css": ".ds-nav{display:flex;gap:23px;align-items:center;height:82px;background:var(--bg,#0d0e16)}.ds-nav a{font:12px \"DM Sans\",sans-serif;color:#b5b4c6;text-decoration:none;transition:color .2s}.ds-nav a:hover,.ds-nav a[aria-current]{color:var(--accent,#a89cff)}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Collection Card",
+      "kind": "card",
+      "refersTo": "badge-card",
+      "description": "The actual card shell; artwork is supplied by attributed site assets.",
+      "html": "<button class=\"ds-card\"><span class=\"ds-art\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z\"/></svg></span><span class=\"ds-content\"><strong>Game Time</strong><span>Every session adds to your story.</span></span></button>",
+      "css": ".ds-card{display:block;width:100%;text-align:left;border:1px solid #2b293b;border-radius:12px;background:#15151f;overflow:hidden;padding:0;color:var(--text,#f0eff8);cursor:pointer;transition:transform .35s cubic-bezier(.16,1,.3,1),border-color .3s}.ds-card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,#a89cff,transparent 45%)}.ds-art{height:171px;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 90%,rgba(168,156,255,.14),transparent 72%)}.ds-art svg{width:15px;height:15px;stroke:#a89cff;stroke-width:1.7;fill:none}.ds-content{display:block;padding:20px;border-top:1px solid #ffffff07}.ds-content strong{display:block;font:700 20px/1.15 \"Space Grotesk\",sans-serif;letter-spacing:-.03em}.ds-content>span{display:block;font:11px/1.6 \"DM Sans\",sans-serif;color:#a09aaf;margin-top:8px;min-height:35px}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Selected Family Tab",
+      "kind": "chip",
+      "refersTo": "badge-tab-selected",
+      "description": "Selected explorer tab using the actual ARIA-driven state.",
+      "html": "<button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">Game Time</button>",
+      "css": ".ds-tab{display:flex;align-items:center;justify-content:center;gap:10px;background:transparent;border:0;border-radius:7px;padding:14px 12px;font:12px \"DM Sans\",sans-serif;color:#aaa4bd;cursor:pointer;transition:background .3s,color .3s}.ds-tab[aria-selected=true]{background:#292438;color:#d3c7ff;box-shadow:inset 0 0 0 1px #4e3e6877}.ds-tab:hover{color:#eee6ff;background:#242030}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Tier Range",
+      "kind": "custom",
+      "refersTo": "progression-slider",
+      "description": "Native slider with family-colored progress and a ringed thumb.",
+      "html": "<label class=\"ds-range-label\" for=\"ds-range\">Drag to evolve</label><input class=\"ds-range\" id=\"ds-range\" type=\"range\" min=\"0\" max=\"9\" value=\"6\" aria-valuetext=\"Level 7\">",
+      "css": ".ds-range-label{font:10px \"DM Sans\",sans-serif;color:#a79bb7;display:block;margin-bottom:18px}.ds-range{width:100%;height:3px;border-radius:4px;appearance:none;background:linear-gradient(to right,#a89cff 66.667%,#373044 66.667%);cursor:pointer}.ds-range::-webkit-slider-thumb{appearance:none;width:13px;height:13px;border-radius:50%;background:#e7dfff;border:3px solid #a89cff;box-shadow:0 0 0 5px rgba(168,156,255,.1)}.ds-range::-moz-range-thumb{width:9px;height:9px;background:#e7dfff;border-radius:50%;border:3px solid #a89cff}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Outline Tag",
+      "kind": "chip",
+      "refersTo": "outline-tag",
+      "description": "A compact supporting metadata tag.",
+      "html": "<span class=\"ds-tag\">Community-documented tiers</span>",
+      "css": ".ds-tag{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;font:10px \"DM Sans\",sans-serif;border:1px solid #343142;border-radius:6px;padding:7px 10px;color:#b7aecf}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav a:focus-visible,.ds-card:focus-visible,.ds-tab:focus-visible,.ds-range:focus-visible{outline:2px solid var(--focus,#b5a8ff);outline-offset:5px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Midnight Collector Gallery",
+    "overview": "Badgecraft presents real badge artwork as collectible objects on midnight charcoal surfaces. Blurple actions, lavender hierarchy, and family-specific cyan, pink, and amber accents give the gallery its gaming character without overwhelming the artwork. Space Grotesk headings establish a geometric voice; DM Sans carries the smaller controls and explanations.\n\nDepth is restrained and local: outlined panels organize the page, while soft lighting supports badge artwork and profile previews. The progression slider and editable profile playground are the signature interactions. Profiles remain clearly labelled simulations, consistent with PRODUCT.md.\n\nThe user-approved hero spotlight adapts UnkindledOne’s sunset profile with generated banner/avatar art, a scoped amber/umber surface and Lilita One nickname. Its fixed identity and badge styles are independent of the unchanged customizable playground. See dist/featured-profile.css and dist/assets/unkindled-artwork.json.\n\nThe merged community-script guide preserves the existing editor and design tokens. Six numbered steps, an amber risk notice, and compact prerequisites pair with the read-only Python source. Its styles are scoped in community-tools.css and collapse to one column below 860px. Website credential collection and script execution are absent.",
+    "keyCharacteristics": [
+      "Real badge artwork anchors the visual hierarchy.",
+      "Charcoal surfaces with blurple actions and localized colored light.",
+      "Geometric headings paired with compact, readable controls.",
+      "Responsive explorer and profile preview with explicit selected states."
+    ],
+    "rules": [
+      {
+        "name": "The Local Light Rule",
+        "body": "Colored gradients and glows belong around artwork and preview stages; panel structure comes from borders and tonal contrast.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve real badge artwork and its attribution.",
+      "Do use blurple for primary actions and lavender for active navigation and focus.",
+      "Do use each badge family’s color consistently in its card, explorer, timeline, and range control.",
+      "Do keep selected states visible through borders, checks, labels, or artwork opacity as well as color.",
+      "Do preserve keyboard focus and the reduced-motion branch.",
+      "Do keep the UnkindledOne hero identity separate from visitor playground edits."
+    ],
+    "donts": [
+      "Don’t replace the shipped charcoal palette with a light theme.",
+      "Don’t spread the artwork glows across ordinary text or every panel.",
+      "Don’t replace the geometric heading and DM Sans pairing with a different visual voice.",
+      "Don’t shrink the mobile milestone timeline to force ten tiers into the viewport; preserve horizontal scrolling.",
+      "Don’t remove the visible simulation labels from profile previews."
+    ]
+  }
+}

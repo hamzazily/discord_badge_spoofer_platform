@@ -1,0 +1,14 @@
+{
+  "method": "Built-in image_gen",
+  "reference": "User-supplied Discord profile screenshot",
+  "purpose": "Featured hero profile only; independent of the customizable profile playground",
+  "banner": {
+    "file": "unkindled-sunset.webp",
+    "prompt": "Use case: stylized-concept. Asset type: landscape banner artwork for the top of an interactive Discord-style user profile card. Input image is a visual reference only: use the sunset banner in its top third, NOT its interface. Create an adapted, polished anime/cinematic golden-hour landscape: low urban rooftops and dark treetops in foreground, distant wooded hills, a luminous amber sun just above horizon, tall electricity pylons and delicate overhead cables receding on the right. Warm honey gold sky, burnt orange highlights and deep olive/umber shadows, subtle film-like atmospheric light. Wide panoramic composition, approximately 3:1, with the brightest sun near center-right. Match the reference's nostalgic sunset world. Edge-to-edge artwork, clean and detailed at a small profile-banner size. No person, no avatar, no cat, no profile card, no typography, no letters, no badge, no buttons, no frame, no watermark. This is a standalone background asset, not a website screenshot."
+  },
+  "avatar": {
+    "file": "unkindled-avatar.webp",
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. Asset type: ornamental avatar illustration for an interactive profile card. Input image is a visual reference: adapt the avatar in the upper-left, not the interface or text. Create a close, anime-inspired portrait in a circular vignette: a youthful androgynous character with tousled dark hair in side profile facing left, face partly shaded, wearing a dark hoodie, with a small round soot-black cat companion at lower left with large amber-ringed eyes. Golden sunlit hills and glowing sunset behind them, warm honey/amber/burnt-orange palette. Surround the lower half and sides of the circle with an exquisite garland of luminous orange and coral autumn leaves and feather-like fiery foliage, extending a little outside the circle like the reference's avatar decoration. High craftsmanship, clean silhouette and readable at 100 pixels. Square composition, centered circular portrait, leave safe transparent margin around outer foliage. Preserve the reference's cozy melancholic sunset atmosphere and dark-haired profile + soot creature composition. Truly transparent background OUTSIDE the vignette and decoration. No text, no numbers, no badges, no status icon, no DND red symbol, no black UI border, no card, no interface, no watermark."
+  }
+}

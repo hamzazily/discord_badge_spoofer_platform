@@ -1,0 +1,13 @@
+{
+  "name": "badgecraft",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent Discord badge explorer and simulated profile playground",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "build": "node scripts/validate.mjs",
+    "test": "node --test scripts/community-tools.test.mjs",
+    "check": "node scripts/validate.mjs"
+  }
+}

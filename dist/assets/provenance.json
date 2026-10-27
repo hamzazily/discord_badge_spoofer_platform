@@ -1,0 +1,235 @@
+{
+  "checked": "2026-10-27",
+  "badge_artwork_owner": "Discord",
+  "badge_mirror": "https://github.com/dev-hoehle/discord-badges",
+  "fonts": "DM Sans, Space Grotesk, and Lilita One; self-hosted Google Fonts with included OFL licenses.",
+  "assets": [
+    {
+      "file": "account_age_blossom.png",
+      "sha256": "8f717ee7ce51fa973014c68e2d867fda87b8cac0e9e5e06e5aa35df890e1b003",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_blossom.png"
+    },
+    {
+      "file": "account_age_bristlecone.png",
+      "sha256": "c700b62c808c652693e3419184ec6c00e86df21ba53fa9ff90439a5b8897e9db",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_bristlecone.png"
+    },
+    {
+      "file": "account_age_bud.png",
+      "sha256": "8034e658995214ff9aa4fdf617b5b2822b8652c7ab79795d5950a50e97ae4ffa",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_bud.png"
+    },
+    {
+      "file": "account_age_primordial.png",
+      "sha256": "b2615e83c4198d8d8473791b1bb85668a1f2e342b4d9db987207f2c7f5a8c4b0",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_primordial.png"
+    },
+    {
+      "file": "account_age_redwood.png",
+      "sha256": "c2df1374a837c1e2f3741938429291dc6d161e16d9b7401e5d6a40720123ee02",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_redwood.png"
+    },
+    {
+      "file": "account_age_sapling.png",
+      "sha256": "4783f58bde05f1dfa86142f669104c82ae3c4dc9b82921b676a1ca9b24b6a8e3",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_sapling.png"
+    },
+    {
+      "file": "account_age_seed.png",
+      "sha256": "3c6c77e25920c593b15123da61d03555ea6337ef6bd8d2333b389d99c8ff253e",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_seed.png"
+    },
+    {
+      "file": "account_age_sequoia.png",
+      "sha256": "8575e2ac715fef10ff8f20e4668c52f6055a5210375f783eb9c8a3d2eaabc7e1",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_sequoia.png"
+    },
+    {
+      "file": "account_age_sprout.png",
+      "sha256": "a414821873a9b50304b617cba2f9f60f98f0081d4c0a2ed32beb462b728550d0",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_sprout.png"
+    },
+    {
+      "file": "account_age_stromatolite.png",
+      "sha256": "8e58cd172cd98bd8ec97770c27ef0b4457faa04fde2310185ca01c3fecd3bae2",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_stromatolite.png"
+    },
+    {
+      "file": "game_time_casual.png",
+      "sha256": "e2efdd43567ca818324d9a1f5bd9217cc5a004ad8d3e91b26afdc9a3f0ad6818",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_casual.png"
+    },
+    {
+      "file": "game_time_committed.png",
+      "sha256": "80a2db8d12187f9652b68fc9c7804d30fc88ed9c282fb0d90ffc48134b931860",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_committed.png"
+    },
+    {
+      "file": "game_time_dedicated.png",
+      "sha256": "2386bbb5440ce88a6fa52a32f0d7821e912d111d91a448cce548a4f29bbb5e73",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_dedicated.png"
+    },
+    {
+      "file": "game_time_devoted.png",
+      "sha256": "0cb369fee83ce998ab1ca66090015dbd4183b5f3dcc42a6c196cd331558f7e4b",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_devoted.png"
+    },
+    {
+      "file": "game_time_eternal.png",
+      "sha256": "4fd83a0ec6fc805a893f6148a902258b9c65934e08ccd5f8db562ffdfad9871b",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_eternal.png"
+    },
+    {
+      "file": "game_time_ironclad.png",
+      "sha256": "7d05ae80d9c96bb9e8c4092c26819460d67401f29edcd5095b33c403c7bb8990",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_ironclad.png"
+    },
+    {
+      "file": "game_time_recreational.png",
+      "sha256": "7c47a60cbb8ab769d7557ffc23f5214e5632fd7ba7934912d4a56296f203ca54",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_recreational.png"
+    },
+    {
+      "file": "game_time_seasoned.png",
+      "sha256": "2482a9548b9164e80103cd174be587edf1ac34f28ccde9f75b378c2da8957e91",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_seasoned.png"
+    },
+    {
+      "file": "game_time_serious.png",
+      "sha256": "f3605f3131df472e25abf16b0cf05501ff4100405c1cc6038e444c6fa2e566a2",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_serious.png"
+    },
+    {
+      "file": "game_time_unshakeable.png",
+      "sha256": "c41310a91769c2aff32c7b9f6ddb4c044b50677af73e38af5aee7e5e06ae4740",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_unshakeable.png"
+    },
+    {
+      "file": "game_variety_adventurer.png",
+      "sha256": "31d3f6b16027535969d91b1e373d3f17b4d892d08bf5cf31689edb5724e047e4",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_adventurer.png"
+    },
+    {
+      "file": "game_variety_dabbler.png",
+      "sha256": "f690833ecc4dedc0a39cd65a722fd6ea57cfa89599e904fd468f5eade36ba2a8",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_dabbler.png"
+    },
+    {
+      "file": "game_variety_enthusiast.png",
+      "sha256": "89556841dc81ae7e4118ec85e16144398e86694b857dd9bafa9d6e80ed2d3eb5",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_enthusiast.png"
+    },
+    {
+      "file": "game_variety_explorer.png",
+      "sha256": "4e42c2e9149f268f474536db2402c31173b35c88471674e0bd0983607423e329",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_explorer.png"
+    },
+    {
+      "file": "game_variety_maverick.png",
+      "sha256": "317fd0c6c38a4f12e299777e6812a48bc74dfb705893b589e05739335a84145e",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_maverick.png"
+    },
+    {
+      "file": "game_variety_polymath.png",
+      "sha256": "94b3d7a22ae2ffba33cb3919acfc0b517108bbc2706b7ecd01f3bb2f807a7350",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_polymath.png"
+    },
+    {
+      "file": "game_variety_ranger.png",
+      "sha256": "9e0a11f9119d2707abd08abaf0f191a2f32dbc806e15bdab742f2ce4923e38d6",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_ranger.png"
+    },
+    {
+      "file": "game_variety_sampler.png",
+      "sha256": "eeebd85bcb06ea43ea7a63c207de4c50eafdd9e808dfdae7404b293512f255e4",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_sampler.png"
+    },
+    {
+      "file": "game_variety_universalist.png",
+      "sha256": "66ed15f3620e1f3c2fb98e3b32c980d624a4a92c515b9580b6471b168a6f5ca1",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_universalist.png"
+    },
+    {
+      "file": "game_variety_voyager.png",
+      "sha256": "5b68bd8f8dce6fb16fad8847a8f5acd2bfa9a1a11839b922fdd9912eab6c3359",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_voyager.png"
+    },
+    {
+      "file": "social-card.png",
+      "sha256": "3c29939ff1c57deffdbc0dfde7d986912f49e0e456fcf9e1fe060a91893f35c4",
+      "origin": "Original Badgecraft composition with credited Discord badge artwork and OFL fonts"
+    },
+    {
+      "file": "streaming_breakout.png",
+      "sha256": "f91952bb148ec439dcb7b6cddba2bc9dcc6dcc417659a3922807cfe72e2c533d",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_breakout.png"
+    },
+    {
+      "file": "streaming_fledgling.png",
+      "sha256": "2ec358d6f39af34786d1f11155a3f6c7b69c61508a9e7c82b68e1a522ddfe31a",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_fledgling.png"
+    },
+    {
+      "file": "streaming_headliner.png",
+      "sha256": "63d6a6759c259ca291cd0dd6911a6552da12ba2a5c7c8f05d43bf571a314b0ea",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_headliner.png"
+    },
+    {
+      "file": "streaming_newcomer.png",
+      "sha256": "5eb140da7ffcc4eaeb017ffa3ec24266c81144df7633d9c4f0f9c5206104acae",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_newcomer.png"
+    },
+    {
+      "file": "streaming_phenomenon.png",
+      "sha256": "391b82bb3eed138ab8db9c9a9162c67a12660ef58a8c696dd2ab2c2862d6e2d6",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_phenomenon.png"
+    },
+    {
+      "file": "streaming_sensation.png",
+      "sha256": "91d5d58c8e296a4947ea584c3fa95a1e37184d015c262f5b4c19e42ce9e77d7e",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_sensation.png"
+    },
+    {
+      "file": "streaming_standout.png",
+      "sha256": "13724ec6ae5226546dcdae6ede658add1b643a453096ad11bc929eaa8a3dff9e",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_standout.png"
+    },
+    {
+      "file": "streaming_star.png",
+      "sha256": "e040dfd1c2fd066dbe865796bb7aa5623423067ec33c51a1e146acfdc7d23c85",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_star.png"
+    },
+    {
+      "file": "streaming_trendsetter.png",
+      "sha256": "efd77e43a94f9c2962c747dad0af81f88bc86d94fbe6c2a89440e5c804b891b8",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_trendsetter.png"
+    },
+    {
+      "file": "streaming_visionary.png",
+      "sha256": "75bb98e709400adef6141912a78438242845d93c6a192a674c62545439d6adb8",
+      "origin": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_visionary.png"
+    },
+    {
+      "file": "avatar.svg",
+      "origin": "Original unofficial Badgecraft vector geometry",
+      "sha256": "2d0d6198e05ddca4ffaaca3c9f91b99e21578807da26bd32f9d063d3a420615e"
+    },
+    {
+      "file": "favicon.svg",
+      "origin": "Original unofficial Badgecraft vector geometry",
+      "sha256": "c58a2a9f22b7187532b0867c111b6bcef58bb281690cc6bc6f105b7c16df8584"
+    },
+    {
+      "file": "unkindled-sunset.webp",
+      "origin": "Built-in image_gen adaptation of the user-supplied UnkindledOne reference",
+      "prompts": "unkindled-artwork.json",
+      "sha256": "6185cc5d1120e5b9c55200d5b58803ca57485fd2c781cd5618de5cc6f105a459"
+    },
+    {
+      "file": "unkindled-avatar.webp",
+      "origin": "Built-in image_gen adaptation of the user-supplied UnkindledOne reference",
+      "prompts": "unkindled-artwork.json",
+      "sha256": "95154dc7b25f352d16fd8fff6eabb2f68ea023843971ea28fca6ee5238df6c9b"
+    }
+  ]
+}

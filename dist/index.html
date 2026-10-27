@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Badgecraft — Your Discord badges. Your next level.</title>
+  <meta name="description" content="Discover Discord’s evolving profile badges. Explore 40 community-documented tiers, build a simulated profile, and learn how progression works. An independent community project.">
+  <meta name="theme-color" content="#0c0d14"><meta property="og:type" content="website">
+  <meta property="og:title" content="Badgecraft — Your profile, evolved."><meta property="og:description" content="Four badge journeys. Forty milestones to explore. Make your next-level profile in the interactive Badgecraft playground.">
+  <meta property="og:url" content="https://badgecraft-discord-lab.ableapple17.chatgpt.site"><meta property="og:image" content="https://badgecraft-discord-lab.ableapple17.chatgpt.site/assets/social-card.png">
+  <meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://badgecraft-discord-lab.ableapple17.chatgpt.site">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./fonts.css"><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./featured-profile.css"><link rel="stylesheet" href="./community-tools.css?v=creator-footer-1">
+  <link rel="preload" href="./assets/space-grotesk-700.ttf" as="font" type="font/ttf" crossorigin>
+  <script type="module" src="./app.js?v=creator-footer-1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Badgecraft home"><svg viewBox="0 0 32 36" aria-hidden="true"><path d="M16 1 30 9v17L16 35 2 26V9Z" fill="#9b8afb"/><path d="m16 8 8 5v10l-8 5-8-5V13Z" fill="#151422"/><path d="m16 12 5 6-5 6-5-6Z" fill="#e1dbff"/></svg>badgecraft<span class="brand-dot">.</span></a>
+      <div class="nav-links" id="nav-links"><a href="#badges">Badges</a><a href="#progression">Progression</a><a href="#profile">Profile Preview</a><a href="#tools">Get Started</a><a href="#faq">FAQ</a></div>
+      <a class="button button-small nav-cta" href="#script-editor">Get script <span data-icon="arrow"></span></a>
+      <button class="icon-button menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span data-icon="menu"></span></button>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="community-label"><span class="status-dot"></span> MADE FOR THE DISCORD COMMUNITY</div>
+        <h1 id="hero-title">Your Discord badges.<br><span>Your next level.</span></h1>
+        <p>Every late-night session. Every new discovery.<br class="desktop-break"> Explore the badges that tell your story.</p>
+        <div class="hero-actions"><a class="button" href="#badges">Explore badges <span data-icon="arrow"></span></a><a class="button button-quiet" href="#how-it-works"><span data-icon="play"></span> How it works</a></div>
+        <div class="hero-note"><span data-icon="shield"></span> No login. No account access. Just exploration.</div>
+      </div>
+      <div class="hero-visual" id="hero-visual">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="star star-one"></span><span class="star star-two"></span><span class="star star-three"></span><span class="star star-four"></span>
+        <button class="floating-badge float-one" data-explore="game-time" aria-label="Explore the Eternal Game Time badge"><img src="./assets/game_time_eternal.png" width="90" height="90" alt="Eternal Game Time golden sword"><span>GAME TIME</span></button>
+        <button class="floating-badge float-two" data-explore="game-variety" aria-label="Explore Game Variety"><img src="./assets/game_variety_maverick.png" width="66" height="66" alt="Maverick Game Variety badge"></button>
+        <button class="floating-badge float-three" data-explore="account-age" aria-label="Explore Account Age"><img src="./assets/account_age_primordial.png" width="76" height="76" alt="Primordial Account Age badge"></button>
+        <div class="hero-profile profile-card featured-profile" id="hero-profile" aria-labelledby="featured-name">
+          <div class="featured-banner"><img src="./assets/unkindled-sunset.webp" width="1100" height="367" alt="Golden sunset over rooftops and hills, with electricity pylons on the horizon" fetchpriority="high"><div class="sunset-light" aria-hidden="true"></div></div>
+          <div class="featured-content">
+            <div class="featured-identity">
+              <div class="featured-avatar-wrap"><img class="featured-avatar" src="./assets/unkindled-avatar.webp" width="116" height="116" alt="Dark-haired anime character and a small black cat framed by glowing autumn leaves"><span class="featured-dnd" role="img" aria-label="Do not disturb, from the reference profile"></span></div>
+              <div class="featured-status" lang="ja"><span data-icon="spark"></span><p>彼らは私が見ている<br>世界を見ていない</p></div>
+              <div class="profile-embers" aria-hidden="true"><i></i><i></i><i></i></div>
+            </div>
+            <h2 class="featured-name" id="featured-name"><span aria-hidden="true">”</span> UnkindledOne</h2>
+            <p class="featured-handle">exclusive.mizzy <span aria-hidden="true">·</span> <span class="featured-server">Oblivion</span></p>
+            <div class="featured-badges" aria-label="Explore the featured badge styles">
+              <button data-featured-badge="2" data-featured-level="9" aria-label="Explore Streaming, Phenomenon" title="Streaming · Phenomenon · preview"><img src="./assets/streaming_phenomenon.png" width="28" height="28" alt=""></button>
+              <button data-featured-badge="1" data-featured-level="9" aria-label="Explore Game Variety, Universalist" title="Game Variety · Universalist · preview"><img src="./assets/game_variety_universalist.png" width="28" height="28" alt=""></button>
+              <button data-featured-badge="0" data-featured-level="8" aria-label="Explore Game Time, Unshakeable" title="Game Time · Unshakeable · preview"><img src="./assets/game_time_unshakeable.png" width="28" height="28" alt=""></button>
+              <button data-featured-badge="3" data-featured-level="8" aria-label="Explore Account Age, Stromatolite" title="Account Age · Stromatolite · preview"><img src="./assets/account_age_stromatolite.png" width="28" height="28" alt=""></button>
+            </div>
+            <div class="featured-bio"><span>SERVER BIO</span><p>Think about it for a second.</p></div>
+            <a class="featured-customize" href="#profile">Create your own profile <span data-icon="arrow"></span></a>
+          </div>
+        </div>
+        <div class="preview-chip featured-chip"><span class="status-dot"></span> Community spotlight <span data-icon="cursor"></span></div>
+      </div>
+      <a class="scroll-cue" href="#badges"><span data-icon="chevron"></span> A little progress. A lot of personality.</a>
+    </section>
+
+    <section id="badges" class="section wrap" aria-labelledby="badges-title">
+      <div class="section-heading"><div><h2 id="badges-title">Small badges. <span>Big stories.</span></h2><p>Four ways to leave your mark. Find the one that feels like you.</p></div><span class="collection-count"><span class="status-dot"></span> 4 evolving collections</span></div>
+      <div class="badge-grid" id="badge-grid" aria-label="Badge collections"></div>
+      <div class="source-strip"><span data-icon="info"></span><p>Mechanics from Discord. Tier tables from community research. <a href="#sources">See sources & artwork credits <span aria-hidden="true">↗</span></a></p></div>
+    </section>
+
+    <section id="progression" class="section wrap" aria-labelledby="progression-title">
+      <div class="section-heading"><div><h2 id="progression-title">Every level has a story.</h2><p>Scrub through the milestones. Watch your badge evolve.</p></div><span class="outline-tag"><span data-icon="sliders"></span> Interactive explorer</span></div>
+      <div class="explorer panel" id="explorer">
+        <div class="badge-tabs" id="badge-tabs" role="tablist" aria-label="Choose a badge collection"></div>
+        <div id="explorer-panel" role="tabpanel" tabindex="0" aria-label="Selected badge progression">
+          <div class="explorer-main"><div class="evolution-stage"><div class="evolution-ring"></div><img id="evolution-image" width="132" height="132" src="./assets/game_time_seasoned.png" alt="Seasoned Game Time badge"><span class="level-pill" id="level-pill">LEVEL 07 / 10</span></div>
+            <div class="evolution-info"><span class="small-label" id="evolution-collection">GAME TIME</span><h3 id="evolution-name">Seasoned</h3><p id="evolution-mechanic"></p><div class="milestone-value"><span data-icon="clock"></span><strong id="evolution-value">500</strong><span id="evolution-unit">hours played</span></div><p class="next-milestone" id="next-milestone"></p><p id="evolution-detail" class="evolution-detail"></p></div>
+            <div class="evolution-action"><span class="small-label">LOOKS GOOD ON YOU</span><div class="mini-badge-preview"><img src="./assets/avatar.svg" width="42" height="42" alt=""><div><strong data-name-text>nightshift</strong><span id="mini-tier">Game Time · Seasoned</span></div></div><button class="button button-outline" id="apply-badge">Use in profile <span data-icon="arrow"></span></button><span class="quiet-caption">A preview, entirely yours.</span></div>
+          </div>
+          <div class="timeline-wrap"><div class="timeline" id="timeline" aria-label="Badge milestones"></div></div>
+          <div class="range-control"><label for="level-slider">Explore level</label><input id="level-slider" type="range" min="0" max="9" value="6" aria-valuetext="Level 7, Seasoned, 500 hours"><output id="level-output" for="level-slider">07 / 10</output></div>
+        </div>
+        <div class="explorer-foot"><span><span data-icon="info"></span> Community-documented tiers · requirements can change.</span><a href="https://github.com/EliteZilla/Discord-Badges#experimental-tier-galleries" target="_blank" rel="noopener noreferrer">View tier source <span data-icon="external"></span></a></div>
+      </div>
+      <p class="preview-disclaimer"><span data-icon="shield"></span> Explore freely. These controls never change your Discord account or unlock real badges.</p>
+    </section>
+
+    <section id="profile" class="section profile-section" aria-labelledby="profile-title"><div class="wrap">
+      <div class="section-heading"><div><h2 id="profile-title">A profile that feels <span>like you.</span></h2><p>Mix your milestones. Find your color. Make it your own.</p></div><span class="outline-tag"><span class="status-dot"></span> Client-side playground</span></div>
+      <div class="profile-workbench"><form class="profile-controls" id="profile-form">
+        <div class="control-heading"><span data-icon="sliders"></span><h3>Your profile, remixed</h3><button class="text-button" type="button" id="reset-profile">Reset <span data-icon="reset"></span></button></div>
+        <label class="field-label" for="display-name">Display name</label><div class="name-field"><input id="display-name" name="displayName" value="nightshift" maxlength="32" autocomplete="off" placeholder="Your display name"><span data-icon="edit"></span></div>
+        <fieldset class="color-field"><legend>Banner color</legend><div class="swatches" id="banner-colors"></div></fieldset>
+        <div class="badge-control-label"><span>Your badge collection</span><span>Show</span></div><div id="profile-selectors"></div>
+        <p class="local-note"><span data-icon="lock"></span> Your edits stay in this browser session.</p>
+      </form>
+      <div class="playground-stage"><div class="stage-topline"><span class="status-dot"></span> YOUR LIVE PREVIEW <span class="preview-icon" data-icon="eye"></span></div>
+        <div class="profile-card playground-profile" id="playground-profile"><div class="profile-banner"><div class="banner-moon"></div><div class="banner-arc"></div><span class="banner-stars">✦</span></div>
+          <div class="profile-content"><div class="avatar-wrap"><img class="avatar" src="./assets/avatar.svg" width="76" height="76" alt="Custom purple orbit avatar"><span class="online-dot" aria-label="Online preview"></span></div><div class="profile-badges" data-profile-badges></div>
+          <h3 class="profile-name" data-profile-name>nightshift<span class="pronoun"> they / them</span></h3><p class="username">@nightshift · collecting good moments</p>
+          <div class="profile-about"><span>ABOUT ME</span><p>One more game. One more milestone.<br>Probably in a voice channel somewhere.</p></div>
+          <div class="profile-member"><span data-icon="spark"></span><div><span>MEMBER OF THE ADVENTURE</span><strong>Since the first “you still there?”</strong></div></div><div class="simulated-label"><span data-icon="eye"></span> Simulated Discord-style profile</div></div>
+        </div><p class="stage-hint">Click a badge to explore its story.</p>
+      </div></div>
+    </div></section>
+
+    <section id="tools" class="section wrap community-guide" aria-labelledby="tools-title">
+      <span id="how-it-works" class="guide-anchor" aria-hidden="true"></span>
+      <div class="section-heading"><div><h2 id="tools-title">Your badges. Your journey.<br><span>Get started.</span></h2><p>Review the source. Understand the trade-offs. Follow the steps at your own pace.</p></div><span class="outline-tag"><span data-icon="code"></span> Local Python tool</span></div>
+
+      <div class="script-risk"><span data-icon="shield"></span><div><strong>Read this before you begin.</strong><p>This script sends fabricated game activity using your Discord account credentials. Discord forbids automated user accounts and may terminate accounts that use them. It is unofficial and not supported by Discord. <a href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots" target="_blank" rel="noopener noreferrer">Read Discord’s policy ↗</a></p></div></div>
+      <div class="guide-prerequisites"><span><span data-icon="code"></span> Python 3.10+</span><span><span data-icon="desktop"></span> A local terminal</span><span><span data-icon="lock"></span> Sensitive credentials required</span><span><span data-icon="eye"></span> Nothing runs on this page</span></div>
+
+      <div class="tools-layout guide-layout">
+        <div class="usage-guide">
+          <div class="usage-steps" role="tablist" aria-label="Script usage steps" aria-orientation="horizontal">
+            <button type="button" role="tab" id="usage-tab-1" aria-controls="usage-panel-1" aria-selected="true" tabindex="0" data-guide-step="0"><span>1</span>Prepare</button>
+            <button type="button" role="tab" id="usage-tab-2" aria-controls="usage-panel-2" aria-selected="false" tabindex="-1" data-guide-step="1"><span>2</span>Copy</button>
+            <button type="button" role="tab" id="usage-tab-3" aria-controls="usage-panel-3" aria-selected="false" tabindex="-1" data-guide-step="2"><span>3</span>Run</button>
+            <button type="button" role="tab" id="usage-tab-4" aria-controls="usage-panel-4" aria-selected="false" tabindex="-1" data-guide-step="3"><span>4</span>Local auth</button>
+            <button type="button" role="tab" id="usage-tab-5" aria-controls="usage-panel-5" aria-selected="false" tabindex="-1" data-guide-step="4"><span>5</span>Options</button>
+            <button type="button" role="tab" id="usage-tab-6" aria-controls="usage-panel-6" aria-selected="false" tabindex="-1" data-guide-step="5"><span>6</span>Results</button>
+          </div>
+
+          <div class="usage-panels">
+            <article class="usage-panel" id="usage-panel-1" role="tabpanel" aria-labelledby="usage-tab-1" tabindex="0">
+              <div class="usage-title"><span data-icon="desktop"></span><h3>Start with the right environment.</h3></div>
+              <p>This is a command-line Python program, not code for Discord’s browser console. It attempts to inflate Game Time and Game Variety; it does not implement Streaming or Account Age progression.</p>
+              <ul><li>Install Python 3.10 or newer. No pip packages are required.</li><li>Use a writable folder and an internet connection. The game catalog is downloaded automatically if needed.</li><li>The optional fingerprint generator requires Windows and PowerShell. Other platforms cannot use that feature.</li></ul>
+              <a class="inline-link" href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">Get Python from python.org <span data-icon="external"></span></a>
+            </article>
+
+            <article class="usage-panel" id="usage-panel-2" role="tabpanel" aria-labelledby="usage-tab-2" tabindex="0" hidden>
+              <div class="usage-title"><span data-icon="copy"></span><h3>Keep the complete file together.</h3></div>
+              <p>Review the source in the editor, then copy it into a plain-text file named <code>spoofer.py</code>. Save it as UTF-8. You can also download the same original file.</p>
+              <p>The copy action uses the whole file, including content outside the collapsed preview. It does not run the code.</p>
+              <div class="usage-actions"><button type="button" class="button button-small" data-copy-script disabled><span data-icon="copy"></span><span class="copy-action-label">Copy script</span></button><a class="inline-link" href="./community/spoofer.py" download="spoofer.py">Download .py <span data-icon="arrow"></span></a></div>
+              <p class="step-footnote">After copying, continue to step 3 to open it locally.</p>
+            </article>
+
+            <article class="usage-panel" id="usage-panel-3" role="tabpanel" aria-labelledby="usage-tab-3" tabindex="0" hidden>
+              <div class="usage-title"><span data-icon="code"></span><h3>Open your terminal in that folder.</h3></div>
+              <p>In Terminal, Command Prompt, or PowerShell, open the folder containing <code>spoofer.py</code>. The README’s launch command is:</p>
+              <div class="run-command"><code>python spoofer.py</code><button type="button" class="copy-command" id="copy-run-command" aria-label="Copy Python launch command"><span data-icon="copy"></span><span>Copy</span></button></div>
+              <p>Your <code>python</code> command must point to Python 3.10+. If it is missing or points to an older version, resolve your Python installation first.</p>
+              <p class="step-footnote">Launching the file starts local prompts and may make network requests. The website never launches it for you.</p>
+            </article>
+
+            <article class="usage-panel" id="usage-panel-4" role="tabpanel" aria-labelledby="usage-tab-4" tabindex="0" hidden>
+              <div class="usage-title"><span data-icon="lock"></span><h3>Know what the local prompts ask for.</h3></div>
+              <p>On first run, the program requires your account token and a cookie header containing <code>cf_clearance</code>. The README assumes you already have these; it references a Discord client request’s Cookie header.</p>
+              <p>These are sensitive credentials. Do not paste them into this website, a support message, or a browser console. If you do not understand or accept that access, stop here.</p>
+              <div class="credential-note"><strong>Plaintext storage, real requests.</strong><p>The script writes credentials to <code>science_state.json</code> beside itself and sends authenticated requests to Discord. Never share or upload that file. Its optional third-party properties request does not include credentials in the inspected code.</p></div>
+            </article>
+
+            <article class="usage-panel" id="usage-panel-5" role="tabpanel" aria-labelledby="usage-tab-5" tabindex="0" hidden>
+              <div class="usage-title"><span data-icon="sliders"></span><h3>Follow the actual on-screen menu.</h3></div>
+              <dl class="script-menu"><div><dt>1</dt><dd><strong>Claim games</strong><span>Choose a game count and hours per game. Blank inputs default to all loaded games and 1 hour. Use positive, finite numbers.</span></dd></div><div><dt>2</dt><dd><strong>Refresh auth</strong><span>Refresh the analytics token and optionally update the cookie.</span></dd></div><div><dt>3</dt><dd><strong>Set fingerprint</strong><span>Optional Windows-only generation using a game executable or process ID. It reads executable metadata and a device identifier to create an account-bound fingerprint.</span></dd></div><div><dt>4</dt><dd><strong>Exit</strong><span>Leave the menu. A blank menu selection also exits.</span></dd></div></dl>
+              <p class="step-footnote">The supplied README’s separate “games played” option is outdated. Some in-script error hints also give the old menu number: auth refresh is option 2.</p>
+            </article>
+
+            <article class="usage-panel" id="usage-panel-6" role="tabpanel" aria-labelledby="usage-tab-6" tabindex="0" hidden>
+              <div class="usage-title"><span data-icon="eye"></span><h3>Separate sent events from earned badges.</h3></div>
+              <p>A <code>204</code> response means a request was accepted. “Claimed” totals in the terminal are local counters, not confirmation that Discord awarded progress.</p>
+              <p>The README reports a 1–2 day delay, but neither that timing nor current effectiveness has been verified here. There is no guaranteed result. Check Discord’s own Badge Directory for actual account progress.</p>
+              <p>The optional fingerprint’s effect is also uncertain in the README. Do not treat repeated submissions as proof of success.</p>
+              <a class="inline-link" href="https://support.discord.com/hc/en-us/articles/44393096706583-How-to-Manage-Your-Discord-Profile-Badges" target="_blank" rel="noopener noreferrer">Find your Badge Directory <span data-icon="external"></span></a>
+            </article>
+          </div>
+
+          <div class="usage-navigation"><button type="button" class="text-button" id="previous-guide-step" disabled><span data-icon="arrow"></span> Previous</button><span id="guide-step-status" role="status" aria-live="polite">Step 1 of 6</span><button type="button" class="text-button" id="next-guide-step">Next step <span data-icon="arrow"></span></button></div>
+          <details class="guide-troubleshooting"><summary>Before you troubleshoot <span data-icon="chevron"></span></summary><p><strong>Auth rejected?</strong> The actual refresh action is menu option 2, even if an old error hint says 3.</p><p><strong>Game list unavailable?</strong> Check the connection and writable folders. The program downloads Discord’s catalog and attempts to cache it at <code>../data/games.json</code>, relative to the script’s folder.</p><p><strong>Fingerprint not set?</strong> It is optional in the implementation. Generation is Windows-only and its impact on badge credit is not guaranteed.</p><p><strong>Debug output?</strong> The provided file has <code>DEBUG = False</code>. Enabling debug can print authentication headers. Never share logs containing credentials.</p></details>
+        </div>
+
+        <div class="script-column">
+          <div class="code-editor panel" id="script-editor" aria-label="Original Python script editor">
+            <div class="editor-header"><div class="editor-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>spoofer.py</span><span class="language-label">Python</span></div>
+            <div class="editor-toolbar"><span><span class="status-dot"></span><span id="script-status" role="status" aria-live="polite">Loading original source…</span></span><button type="button" class="copy-button" id="copy-code" data-copy-script disabled><span data-icon="copy"></span><span class="copy-action-label" id="copy-label">Copy script</span></button></div>
+            <div class="code-body" id="code-body" tabindex="0" role="region" aria-label="Read-only complete Python script"><pre id="code-content">Loading the complete original file…</pre><textarea id="manual-script-copy" aria-label="Complete script for manual copying" readonly spellcheck="false" hidden></textarea></div>
+            <div class="script-load-error" id="script-load-error" hidden><p>The source could not be loaded or verified. Copying is disabled until it is available.</p><button type="button" class="button button-small button-outline" id="retry-script">Try again <span data-icon="reset"></span></button></div>
+            <div class="editor-footer"><span>UTF-8 <span class="code-separator">·</span> Read-only</span><button type="button" class="text-button" id="expand-code" aria-expanded="false" aria-controls="code-body">Expand code <span data-icon="expand"></span></button></div>
+          </div>
+          <p class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></p>
+          <div class="script-file-info"><span id="script-file-meta">Original file · unmodified</span><a href="./community/spoofer.py" download="spoofer.py">Download source <span data-icon="arrow"></span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section wrap faq-section" aria-labelledby="faq-title"><div class="faq-intro"><h2 id="faq-title">A few good<br><span>questions.</span></h2><p>The details, without the deep dive.</p><a class="inline-link" href="https://support.discord.com/hc/en-us/articles/44393096706583-How-to-Manage-Your-Discord-Profile-Badges" target="_blank" rel="noopener noreferrer">Visit Discord Support <span data-icon="external"></span></a></div><div class="faq-list" id="faq-list"></div></section>
+
+    <section class="sources wrap" id="sources" aria-label="Sources and artwork credits"><details><summary>Good information deserves a source. <span data-icon="plus"></span></summary><div class="source-details"><p>Checked October 27, 2026. Official mechanics: <a href="https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means" target="_blank" rel="noopener noreferrer">Discord’s badge guide</a>, <a href="https://support.discord.com/hc/en-us/articles/44393096706583-How-to-Manage-Your-Discord-Profile-Badges" target="_blank" rel="noopener noreferrer">badge management guide</a>, and <a href="https://support.discord.com/hc/en-us/articles/21865322754327-Data-Used-to-Personalize-Discord" target="_blank" rel="noopener noreferrer">personalization settings</a>.</p><p>Ten-tier names, artwork mappings, and thresholds are community documented by <a href="https://github.com/EliteZilla/Discord-Badges#experimental-tier-galleries" target="_blank" rel="noopener noreferrer">Discord Badge Archive</a>, cross-checked with <a href="https://communityone.io/en/servers/1247694722173108254/infinity-hub-tm/news/discord-evolving-profile-badges-explained-2026-09-02/" target="_blank" rel="noopener noreferrer">Infinity Hub’s tier list</a>. Discord’s official guide does not enumerate these tier tables. Treat them as a reference, not guaranteed unlock requirements. The top tier is shown as a minimum threshold, with “+”.</p><p>Discord badge artwork is mirrored from <a href="https://github.com/dev-hoehle/discord-badges" target="_blank" rel="noopener noreferrer">dev-hoehle/discord-badges</a>; all Discord marks belong to Discord. The featured sunset banner and avatar are AI-created adaptations of a community member’s supplied profile reference. Featured badges are interactive illustrations, not a live account readout. The playground avatar and Badgecraft identity are original, unofficial illustrations. Badgecraft itself collects no analytics or credentials and makes no Discord API requests. The separate Python program makes authenticated requests when a visitor runs it locally, as explained in the script guide.</p></div></details></section>
+  </main>
+  <footer class="footer wrap"><div class="footer-main"><div><a class="brand" href="#home"><svg viewBox="0 0 32 36" aria-hidden="true"><path d="M16 1 30 9v17L16 35 2 26V9Z" fill="#9b8afb"/><path d="m16 8 8 5v10l-8 5-8-5V13Z" fill="#151422"/><path d="m16 12 5 6-5 6-5-6Z" fill="#e1dbff"/></svg>badgecraft<span class="brand-dot">.</span></a><p>A little progress. A lot of personality.<br>An independent home for Discord badge enthusiasts.</p><p class="creator-credit">Made by <strong>Nameless</strong> <span aria-hidden="true">·</span> <a href="#hero-profile" aria-label="View UnkindledOne’s featured profile">UnkindledOne <span data-icon="arrow"></span></a></p></div><div class="footer-links"><a href="#home">Home</a><a href="#badges">Badges</a><a href="#profile">Profile Preview</a><a href="#tools">Script Guide</a><a href="#faq">FAQ</a><a href="https://support.discord.com/hc/en-us/articles/44369363856663-Discord-Profile-Badges-What-Each-Badge-Means" target="_blank" rel="noopener noreferrer">Official badge docs ↗</a></div></div><div class="footer-bottom"><span>© 2026 Badgecraft. Made for the adventure.</span><span>Not affiliated with or endorsed by Discord.</span><a href="#home">Back to top ↑</a></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Enable JavaScript to use the badge explorer and profile playground. The guide and official source links remain available.</div></noscript>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "filename": "spoofer.py",
+  "sha256": "665eedc74102e15115cf6914797e78f4d50665d47b588cf2e0c7166387d472e2",
+  "bytes": 34982,
+  "lines": 938,
+  "pythonMinimum": "3.10",
+  "author": "nameless",
+  "license": "MIT",
+  "sourceModified": false
+}
